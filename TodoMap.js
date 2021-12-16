@@ -101,7 +101,7 @@ const TodoMap = ({ showForm, handleShowForm }) => {
                         onChangeText={(e) => handleText(e)}
                     />
                     <View style={Styles.InputTodoBtnDiv}>
-                        <View><TouchableOpacity onPress={handleShowForm} style={Styles.InputTodoBtn}><Text style={Styles.InputTodoBtnText}>Cancle</Text></TouchableOpacity></View>
+                        <View><TouchableOpacity onPress={handleShowForm} style={Styles.InputTodoBtn}><Text style={Styles.InputTodoBtnText}>Cancel</Text></TouchableOpacity></View>
                         <View><TouchableOpacity style={Styles.InputTodoBtn} onPress={() => newTodoItem()}><Text style={Styles.InputTodoBtnText}>Done</Text></TouchableOpacity></View>
                     </View>
 
